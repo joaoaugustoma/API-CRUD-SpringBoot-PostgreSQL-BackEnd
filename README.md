@@ -11,6 +11,6 @@ Create a basic CRUD using Spring Boot with Spring Data JPA
 
 <h2>Requirements</h2>
 
-- On inclusion, a a field must be unique and validated (choice a attribute that cannot be repeated)
+- On inclusion a field must be unique and validated (choice a attribute that cannot be repeated)
 - A listing using JPQL
 - A listing method using an attribute
