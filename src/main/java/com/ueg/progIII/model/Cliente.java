@@ -9,7 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.util.Date;
 
-    @AllArgsConstructor
+@AllArgsConstructor
 @NoArgsConstructor
 @Entity(name = "Cliente")
 public @Data class Cliente {
