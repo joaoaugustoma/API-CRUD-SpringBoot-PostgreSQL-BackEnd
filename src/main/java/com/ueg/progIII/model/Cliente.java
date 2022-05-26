@@ -23,6 +23,7 @@ public @Data class Cliente {
     @Column(name = "sobreNome", nullable = false,	length = 200)
     private String sobreNome;
 
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
     @Column(name = "dataNascimento", nullable = false)
     private Date dataNascimento;
 
@@ -31,5 +32,4 @@ public @Data class Cliente {
 
     @Column(name = "endereco", nullable = false , length = 500)
     private String endereco;
-
 }
